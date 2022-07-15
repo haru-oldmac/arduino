@@ -24,16 +24,23 @@ LEDはないので　モニターで時間を見る
 ![スクリーンショット 2022-07-16 7 34 58](https://user-images.githubusercontent.com/62734282/179320601-8eba8048-86bc-4609-b897-72d7b26667a7.png)
 
 Nanoでは　家のボードが古かったので　　328P(Old..）を選択しました
+
 新しいのではこのエラーがでます
+
 avrdude: stk500_getsync() attempt 1 of 10: not in sync: resp=0x34
 
 シリアルモニタ結果
+
 ![スクリーンショット 2022-07-16 8 15 20](https://user-images.githubusercontent.com/62734282/179323681-aed80790-a447-42cb-97be-19ee5870d4e6.png)
+
 誤差大きいです
 　
 シリアルモニタでの評価は
+
 1位　　ESP32
+
 2位　　Mega256
+
 ３位　　Nano
 
 CPU性能通りｊかな
