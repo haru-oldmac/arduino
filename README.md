@@ -1,5 +1,5 @@
 # arduino
-Arduino で遊ぶ
+Arduino で遊ぶ　　1.8.19　　　MAC　　11.6.7　　（自作　Hacintosh)
 
 タイマー割り込みを使用せず、ｍｉｌｌ関数で時間を取り、ポーリング１０ｍｓとする
 シリアルモニタで見ると、誤差がある。大体10ｍｓ付近です。
@@ -18,7 +18,11 @@ Serial.println(time);も誤差に影響する。
 
 ESP32 では　ボードマネージャに追記
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-![スクリーンショット 2022-07-16 7 24 07](https://user-images.githubusercontent.com/62734282/179319384-a8af0350-722e-4ff8-88b1-7941ffea4f8f.png)
+
 ESP32 Dev Module を選択
-LEDはないので　モニターでじかんを見る
+![スクリーンショット 2022-07-16 7 24 07](https://user-images.githubusercontent.com/62734282/179319384-a8af0350-722e-4ff8-88b1-7941ffea4f8f.png)
+
+LEDはないので　モニターで時間を見る
 ![スクリーンショット 2022-07-16 7 34 58](https://user-images.githubusercontent.com/62734282/179320601-8eba8048-86bc-4609-b897-72d7b26667a7.png)
+
+
